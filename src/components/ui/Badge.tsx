@@ -5,12 +5,14 @@ interface BadgeProps {
   children: ReactNode;
   variant?: "success" | "warning" | "danger" | "info" | "default";
   size?: "sm" | "md";
+  className?: string;
 }
 
 export const Badge: FC<BadgeProps> = ({
   children,
   variant = "default",
   size = "md",
+  className,
 }) => {
   const variants = {
     success: "bg-success-100 text-success-700 border-success-200",
@@ -30,7 +32,8 @@ export const Badge: FC<BadgeProps> = ({
       className={cn(
         "inline-flex items-center font-medium rounded-full border",
         variants[variant],
-        sizes[size]
+        sizes[size],
+        className
       )}
     >
       {children}

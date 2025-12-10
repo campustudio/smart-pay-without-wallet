@@ -15,7 +15,7 @@ export const useAuthStore = create<AuthStore>((set) => ({
   isAuthenticated: false,
   isLoading: false,
 
-  login: async (email: string, password: string) => {
+  login: async (email: string, _password: string) => {
     set({ isLoading: true });
 
     // Simulate API call
@@ -50,7 +50,7 @@ export const useAuthStore = create<AuthStore>((set) => ({
     set({ user, isAuthenticated: true, isLoading: false });
   },
 
-  register: async (email: string, password: string, name: string) => {
+  register: async (email: string, _password: string, name: string) => {
     set({ isLoading: true });
 
     // Simulate API call

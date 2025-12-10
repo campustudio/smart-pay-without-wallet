@@ -16,7 +16,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { useAuthStore } from "@/store/authStore";
 import { usePaymentStore } from "@/store/paymentStore";
-import { PaymentMethod, CryptoType } from "@/types";
+import { CryptoType } from "@/types";
 import { formatCurrency, formatCrypto } from "@/lib/utils/format";
 import { getCryptoAmount } from "@/lib/services/feeCalculator";
 import { CRYPTO_PRICES } from "@/lib/constants/crypto";
