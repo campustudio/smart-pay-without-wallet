@@ -1,10 +1,10 @@
 # SmartPay - Wallet-Less Web3 Payment MVP
 
-> **A professional interview demo** showcasing Apple Pay-grade checkout experience without wallet requirement
+> **A professional app** showcasing Apple Pay-grade checkout experience without wallet requirement
 
 ## 🎯 Project Overview
 
-This is a production-ready MVP built specifically for the **SmartPay Frontend Developer** interview. It demonstrates:
+This is a production-ready MVP built specifically. It demonstrates:
 
 - ✅ **Wallet-less authentication** (Email/Google/Apple Sign-in)
 - ✅ **Multi-payment support** (Crypto, Card, Bank Transfer)
@@ -132,9 +132,7 @@ npm run preview
 2. **Checkout**: Select payment method, complete purchase
 3. **Dashboard**: View transaction history and metrics
 
-## 💡 Interview Talking Points
-
-### Technical Skills Demonstrated
+### Technical
 
 1. **React Best Practices**
 
@@ -176,9 +174,7 @@ npm run preview
 - **Multiple Methods**: Flexibility for users
 - **Merchant Value**: Analytics for business insights
 
-## 🎯 Alignment with SmartPay JD
-
-### Requirements Met
+## 🎯 Alignment
 
 ✅ **JavaScript/TypeScript/HTML5/CSS3** - Full TypeScript implementation
 ✅ **React** - Modern React 18 with hooks
@@ -217,10 +213,9 @@ This project showcases:
 - Production-ready architecture
 - Enterprise-level code quality
 - Business value delivery
-- Interview presentation skills
 
 ---
 
-**Built with ❤️ for SmartPay Interview**
+**Built with ❤️**
 
 _Demonstrating readiness to contribute to the future of Web3 payments_
